@@ -1,3 +1,4 @@
-# Project 1
+# BOOKie's
 
-Web Programming with Python and JavaScript
+A online book review website!
+
