@@ -1,0 +1,33 @@
+
+# BOOKS
+CREATE TABLE books
+(
+book_id INTEGER  PRIMARY KEY AUTOINCREMENT NOT NULL,
+isbn TEXT NOT NULL,
+title TEXT NOT NULL,
+author VARCHAR(20) ,
+year INTEGER
+);
+
+
+
+# users
+
+CREATE TABLE users
+(
+user_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+username VARCHAR,
+hash VARCHAR NOT NULL
+);
+
+
+#reviews
+# book_id, author, rating, review_text
+CREATE TABLE reviews
+(
+review_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+book_id INTEGER NOT NULL,
+author VARCHAR,
+rating INTEGER NOT NULL,
+review_text VARCHAR
+);

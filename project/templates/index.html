@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+Homepage
+
+{% endblock %}
+
+{% block main %}
+
+    {% for result in results %}
+    <div id= book_id class="jumbotron"style ="align:center">
+      <h2 class="display-6">Title : {{ result["title"] }}</h1>
+      <p class="lead">Author: {{ result ["author"] }}</p>
+      <hr class="my-4">
+      <p class= "lead">Year : {{ result["year"] }}</p>
+
+        <a class="btn btn-primary btn-lg" href ="{{ url_for('review', book_id = result.book_id)}}" role="button" >Know more</a>
+
+    </div>
+    {% endfor %}
+
+{% endblock %}
+

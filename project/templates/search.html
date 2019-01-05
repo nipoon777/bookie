@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+Search
+
+{% endblock %}
+
+{% block main %}
+
+    {% for row in rows %}
+    <div class="jumbotron"style ="align:center">
+      <h2 class="display-6">Title : {{ row["title"] }}</h1>
+      <p class="lead">Author: {{  row["author"] }}</p>
+      <hr class="my-4">
+      <p class= "lead">Year : {{ row["year"] }}</p>
+      <a class="btn btn-primary btn-lg" href="{{ url_for('review', book_id = row.book_id)}} " role="button">Know more</a>
+    </div>
+
+    {% endfor %}
+
+{% endblock %}

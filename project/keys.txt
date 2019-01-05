@@ -1,0 +1,9 @@
+PSQL url
+
+postgres://qnmcepmuhzdfxq:049a4071e8103c5a05ea50e19adb2c52a8e530acbcc9ad4a8ee2cc975498eab6@ec2-54-83-3-101.compute-1.amazonaws.com:5432/de8j79kppb95bo
+
+
+
+GOODREADS API key
+
+PANh14GvLTygsXvxHHNAw
