@@ -12,5 +12,5 @@ Rate the book, Review and look at reviews by other members of the community on t
 -Python - Flask, HTML, CSS, Jinja
 -Database- PostgreSQL
 
-<video src = "https://www.youtube.com/watch?v=Of8lfzTeBAY" autoplay controls/>
+<video src = "https://www.youtube.com/watch?v=Of8lfzTeBAY" autoplay controls> Here is the working video <video/>
 
